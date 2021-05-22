@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>future time comparator</title>
+        <style>
+            #InputTime{
+                padding:15px 0;
+            }
+            #currtime{
+                font-size: 40px;
+            }
+            body{
+                background-color: rgb(250, 215, 231);
+            }
+        </style>
+    </head>
+    <body onload="showTime()">
+        
+        <h3>CURRENT TIME:</h3>
+
+        <div id="currtime"></div>
+        
+        <h3>FUTURE TIME:</h3>
+        
+        <div id="InputTime">
+            Hour<input id="h" value="">
+            Minute<input id="m" value="">
+            Second<input id="s" value="">
+        </div>
+
+        <h4>Take input then move mouse from input box</h4>
+        <script src="index.js" async defer></script>
+    </body>
+</html>
